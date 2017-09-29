@@ -1,0 +1,52 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+  position: relative;
+  font-size: 62.5%;
+}
+
+#pageTitle{
+  position: relative;
+  height: 10%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#titleName{
+  word-wrap: normal;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#titleEmail{
+  justify-content: flex-end;
+}
+
+#titlePhone{
+  padding-right: 110px;
+}
+
+.navigation{
+  height: 5%;
+  height: 5vh;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+
+.navBtn h5{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+
+.verticalCenter{
+  display: flex;
+  align-items: center;
+}
