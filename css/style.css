@@ -8,6 +8,15 @@ body,html{
   font-size: 62.5%;
 }
 
+#pageTop{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  width: 100vw;
+  z-index: 1;
+  background-color: white;
+}
+
 #pageTitle{
   position: relative;
   height: 10%;
@@ -28,7 +37,7 @@ body,html{
 }
 
 #titlePhone{
-  padding-right: 110px;
+  padding-right: 120px;
 }
 
 .navigation{
@@ -44,6 +53,67 @@ body,html{
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 2rem;
+}
+
+#mainContent{
+  position: relative;
+  top: 15%;
+  z-index: 0;
+  padding: 0 5%;
+  background-color: black
+}
+
+#bg1, #bg2, #bg3, #bg4{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+#bg1{
+  background-image: url('../img/img1.jpg');
+  min-height: 85vh;
+}
+
+#bg2{
+  background-image: url('../img/img2.jpg');
+  min-height: 85vh;
+}
+
+#bg3{
+  background-image: url('../img/img3.jpg');
+  min-height: 85vh;
+}
+
+#bg4{
+  background-image: url('../img/img1.jpg');
+  min-height: 85vh;
+}
+
+.bgText{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 8px;
+}
+
+#lastText{
+  top: 20%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  height: 5vh;
+  background-color: white;
+  width: 100%;
+
 }
 
 .verticalCenter{
