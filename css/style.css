@@ -4,6 +4,7 @@ body,html{
   margin: 0px;
   padding: 0px;
   overflow-x:hidden;
+  overflow: initial;
   position: relative;
   font-size: 62.5%;
 }
@@ -28,6 +29,7 @@ body,html{
 }
 
 #titleName{
+  padding-top: 10px;
   word-wrap: normal;
   margin-left: 5%;
   margin-right: 5%;
@@ -38,7 +40,7 @@ body,html{
 }
 
 #titlePhone{
-  padding-right: 120px;
+  padding-right: 8%;
 }
 
 .navigation{
@@ -95,7 +97,7 @@ body,html{
 }
 
 #bg4{
-  background-image: url('../img/img1.jpg');
+  background-image: url('../img/img4.jpg');
   min-height: 85vh;
 }
 
@@ -106,6 +108,7 @@ body,html{
   text-align: center;
   color: white;
   font-size: 3rem;
+  font-weight: 800;
   letter-spacing: 8px;
 }
 
@@ -138,4 +141,86 @@ footer h5{
 .verticalCenter{
   display: flex;
   align-items: center;
+}
+
+
+@media(max-width: 930px){
+  html,body{
+    font-size: 45%;
+  }
+}
+@media(max-width: 602px) {
+  #titleEmail,#titlePhone{
+    display:none;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    height: 10vh;
+  }
+  footer h5{
+    padding-right: 0;
+  }
+  #footerAddress{
+    padding-bottom: 5px;
+  }
+  #footerEmail,#footerPhone{
+    border-bottom: 0.5px black solid;
+    visibility: visible !important;
+  }
+  #lastText{
+    top: 5%;
+  }
+  #theForm{
+    margin-top: 1%;
+    width: 75%;
+  }
+  #theForm label{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 602px) AND (min-height: 650px){
+  footer{
+    height: 7%;
+  }
+}
+
+@media(max-width: 360px){
+  #titleName h1{
+    font-size: 3rem;
+  }
+}
+
+
+@media(max-height: 768px){
+  #pageTitle{
+    height: 15%;
+    height: 15vh;
+  }
+}
+@media(max-height: 450px){
+  #footerAddress{
+    padding: 0;
+  }
+}
+@media(max-height: 375px){
+  #titleName{
+    padding-top: 20px;
+  }
+  .navigation{
+    height: 8%;
+    height: 8vh;
+  }
+  footer{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #footerAddress{
+    padding: 0;
+  }
+  #footerEmail,#footerPhone{
+    border-bottom: 0;
+  }
 }
