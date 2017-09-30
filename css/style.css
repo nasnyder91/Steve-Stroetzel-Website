@@ -23,7 +23,8 @@ body,html{
   height: 10vh;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: #DDCBA6;
 }
 
 #titleName{
@@ -47,19 +48,25 @@ body,html{
   border-bottom: 1px black solid;
   display: flex;
   justify-content: center;
+  background-color: #F2E5CB;
+}
+
+.navBtn:hover{
+  cursor: pointer;
 }
 
 .navBtn h5{
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 2rem;
+  letter-spacing: .5rem;
 }
 
 #mainContent{
   position: relative;
   top: 15%;
   z-index: 0;
-  padding: 0 5%;
+  padding: 0;
   background-color: black
 }
 
@@ -106,14 +113,26 @@ body,html{
   top: 20%;
 }
 
+#theForm{
+  margin-top: 5%;
+  width: 50%;
+}
+
 footer{
   position: fixed;
   bottom: 0;
   height: 5%;
   height: 5vh;
-  background-color: white;
+  background-color: #DDCBA6;
+  border-top: 1px black solid;
   width: 100%;
+  justify-content: flex-end;
+}
 
+footer h5{
+  letter-spacing: .2rem;
+  padding-right: 5%;
+  white-space: nowrap;
 }
 
 .verticalCenter{
