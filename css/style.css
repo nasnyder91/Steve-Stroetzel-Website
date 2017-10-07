@@ -398,7 +398,7 @@ input:-webkit-autofill {
       background-attachment: scroll;
     }
     #titleName h1{
-      height: 2rem;
+      height: 1rem;
     }
 }
 
@@ -412,7 +412,7 @@ input:-webkit-autofill {
       background-attachment: scroll;
     }
     #titleName h1{
-      height: 1.8rem;
+      height: 1rem;
     }
 
 }
