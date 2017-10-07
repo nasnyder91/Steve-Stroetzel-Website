@@ -137,6 +137,15 @@ body,html{
   width: 50%;
 }
 
+.form-control{
+  font-size: 1.8rem;
+  opacity: .8;
+}
+
+#sendBtn{
+  font-size: 2rem;
+}
+
 footer{
   position: fixed;
   bottom: 0;
@@ -234,6 +243,14 @@ input:-webkit-autofill {
   #bg4{
     background-image: url('../img/img4small.png');
   }
+
+  .form-control{
+    font-size: 1.5rem;
+  }
+
+  #sendBtn{
+    font-size: 1.7rem;
+  }
 }
 
 @media(width: 1024px) AND (height: 1366px){
@@ -291,6 +308,15 @@ input:-webkit-autofill {
   .form-group{
     margin: 0;
   }
+
+  .form-control{
+    font-size: 1.5rem;
+  }
+
+  #sendBtn{
+    font-size: 1.7rem;
+  }
+
 }
 @media(max-height: 375px){
   #titleName{
