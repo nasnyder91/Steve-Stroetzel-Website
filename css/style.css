@@ -138,6 +138,10 @@ body,html{
   width: 50%;
 }
 
+#theForm label{
+  font-weight: 400;
+}
+
 .form-control{
   font-size: 1.8rem;
   opacity: .8;
