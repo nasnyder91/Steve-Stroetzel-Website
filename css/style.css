@@ -83,22 +83,26 @@ body,html{
 
 #bg1{
   background-image: url('../img/img1.png');
+  min-height: 85%;
   min-height: 85vh;
 }
 
 #bg2{
   background-image: url('../img/img2.png');
   background-position: 0px -80px;
+  min-height: 85%;
   min-height: 85vh;
 }
 
 #bg3{
   background-image: url('../img/img3.png');
+  min-height: 85%;
   min-height: 85vh;
 }
 
 #bg4{
   background-image: url('../img/img4.png');
+  min-height: 85%;
   min-height: 85vh;
 }
 
@@ -114,8 +118,8 @@ body,html{
 }
 
 .bgText .border{
-  background-color: rgba(71, 65, 52, 0.3);
-  color: #fff;
+  background-color: rgba(221, 203, 166, 0.5);
+  color: black;
   padding: 20px;
   border-radius: 200px;
 }
