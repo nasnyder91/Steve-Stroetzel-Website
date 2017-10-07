@@ -129,7 +129,8 @@ body,html{
 }
 
 #lastText{
-  top: 20%;
+  top: 10%;
+  font-size: 4rem;
 }
 
 #theForm{
@@ -176,6 +177,16 @@ input:-webkit-autofill {
 @media(max-width:1500px){
   #bg2{
     background-position: 0px 0px;
+  }
+  #theForm{
+    width: 75%;
+  }
+  .form-control{
+    font-size: 3rem;
+  }
+
+  #sendBtn{
+    font-size: 3.3rem;
   }
 }
 
@@ -281,20 +292,29 @@ input:-webkit-autofill {
   }
 }
 
-
 @media(max-height: 768px){
   #pageTitle{
     height: 15%;
     height: 15vh;
   }
+
+  #lastText{
+    font-size: 3rem;
+  }
+  #lastText label{
+    font-size: 3rem;
+  }
+  .form-control{
+    font-size: 2rem;
+  }
+
+  #sendBtn{
+    font-size: 2.3rem;
+  }
 }
 @media(max-height: 450px){
   #footerAddress{
     padding: 0;
-  }
-
-  #lastText{
-    top: 10%;
   }
 
   #theForm{
