@@ -82,22 +82,23 @@ body,html{
 }
 
 #bg1{
-  background-image: url('../img/img1.jpg');
+  background-image: url('../img/img1.png');
   min-height: 85vh;
 }
 
 #bg2{
-  background-image: url('../img/img2.jpg');
+  background-image: url('../img/img2.png');
+  background-position: 0px -80px;
   min-height: 85vh;
 }
 
 #bg3{
-  background-image: url('../img/img3.jpg');
+  background-image: url('../img/img3.png');
   min-height: 85vh;
 }
 
 #bg4{
-  background-image: url('../img/img4.jpg');
+  background-image: url('../img/img4.png');
   min-height: 85vh;
 }
 
@@ -110,6 +111,13 @@ body,html{
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 8px;
+}
+
+.bgText .border{
+  background-color: rgba(71, 65, 52, 0.3);
+  color: #fff;
+  padding: 20px;
+  border-radius: 200px;
 }
 
 #lastText{
@@ -143,12 +151,32 @@ footer h5{
   align-items: center;
 }
 
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+
+
+@media(max-width:1500px){
+  #bg2{
+    background-position: 0px 0px;
+  }
+}
 
 @media(max-width: 930px){
   html,body{
     font-size: 45%;
   }
+  #bg2{
+    background-position: -50px 0px;
+  }
 }
+
+@media(max-width: 800px){
+  #bg2{
+    background-position: -200px 0px;
+  }
+}
+
 @media(max-width: 602px) {
   #titleEmail,#titlePhone{
     display:none;
@@ -170,7 +198,7 @@ footer h5{
     visibility: visible !important;
   }
   #lastText{
-    top: 5%;
+    top: 20%;
   }
   #theForm{
     margin-top: 1%;
@@ -179,11 +207,28 @@ footer h5{
   #theForm label{
     font-size: 2rem;
   }
+  .bgText{
+    font-size: 2rem;
+    letter-spacing: 4px;
+  }
+}
+
+@media(width: 1024px) AND (height: 1366px){
+  #bg2{
+    background-position: -200px 0px;
+  }
 }
 
 @media(max-width: 602px) AND (min-height: 650px){
   footer{
     height: 7%;
+  }
+}
+
+@media(max-width: 400px){
+  .bgText{
+    font-size: 2rem;
+    letter-spacing: 1px;
   }
 }
 

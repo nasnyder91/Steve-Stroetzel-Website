@@ -28,6 +28,8 @@ $(document).ready(function(){
   $('#theForm').on('submit', function(e) {
        e.preventDefault();
 
+       var form = $("#theForm");
+
        var name = $('#name').val();
 
        var email = $('#email').val();
