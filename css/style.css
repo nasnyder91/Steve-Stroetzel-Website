@@ -275,6 +275,22 @@ input:-webkit-autofill {
   #footerAddress{
     padding: 0;
   }
+
+  #lastText{
+    top: 10%;
+  }
+
+  #theForm{
+    margin-top: 10px;
+  }
+
+  #theForm label{
+    font-size: 2rem;
+  }
+
+  .form-group{
+    margin: 0;
+  }
 }
 @media(max-height: 375px){
   #titleName{
@@ -295,21 +311,6 @@ input:-webkit-autofill {
     border-bottom: 0;
   }
 
-  #lastText{
-    top: 10%;
-  }
-
-  #theForm{
-    margin-top: 10px;
-  }
-
-  #theForm label{
-    font-size: 2rem;
-  }
-
-  .form-group{
-    margin: 0;
-  }
   #titleName h1{
     font-size: 2.5rem !important;
   }
