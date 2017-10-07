@@ -291,9 +291,8 @@ input:-webkit-autofill {
   .form-group{
     margin: 0;
   }
-
   #titleName h1{
-    height: 3.5rem;
+    font-size: 2rem !important;
   }
 }
 
