@@ -81,6 +81,10 @@ body,html{
   background-attachment: fixed;
 }
 
+#bg1, #bg2, #bg3{
+  border-bottom: 2px #8c7a56 solid;
+}
+
 #bg1{
   background-image: url('../img/img1.png');
   min-height: 85%;
