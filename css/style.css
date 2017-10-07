@@ -338,8 +338,16 @@ input:-webkit-autofill {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    #titleName h1{
+      height: 4rem;
+    }
+
     #bg1, #bg2, #bg3, #bg4{
       background-attachment: scroll;
+    }
+
+    #bg2{
+      background-position: 0px 0px;
     }
 
 }
