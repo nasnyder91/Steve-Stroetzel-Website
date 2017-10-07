@@ -1,6 +1,6 @@
-webshim.activeLang('en');
-webshims.polyfill('forms');
-webshims.cfg.no$Switch = true;
+//webshim.activeLang('en');
+//webshims.polyfill('forms');
+//webshims.cfg.no$Switch = true;
 
 $(document).ready(function(){
   $(".navBtn").hover(function(e){
@@ -15,8 +15,6 @@ $(document).ready(function(){
   });
 
   $("#toContact").click(function(){
-    console.log($("#bg4").position().top);
-
     $("html, body").animate({ scrollTop: $("#bg4").position().top }, "slow");
     return false;
   });
