@@ -231,7 +231,7 @@ input:-webkit-autofill {
 
 @media(max-width: 400px){
   #titleName h1{
-    height: 3rem !important;
+    height: 2.8rem !important;
   }
   .bgText{
     font-size: 2rem;
@@ -241,7 +241,7 @@ input:-webkit-autofill {
 
 @media(max-width: 360px){
   #titleName h1{
-    font-size: 2.8rem !important;
+    font-size: 2.6rem !important;
   }
 }
 
