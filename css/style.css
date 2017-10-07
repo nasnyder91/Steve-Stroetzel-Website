@@ -230,6 +230,9 @@ input:-webkit-autofill {
 }
 
 @media(max-width: 400px){
+  #titleName h1{
+    height: 3.5rem;
+  }
   .bgText{
     font-size: 2rem;
     letter-spacing: 1px;
@@ -287,6 +290,10 @@ input:-webkit-autofill {
 
   .form-group{
     margin: 0;
+  }
+
+  #titleName h1{
+    height: 3.5rem;
   }
 }
 
