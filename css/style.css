@@ -84,20 +84,20 @@ body,html{
 #bg1{
   background-image: url('../img/img1.png');
   min-height: 85%;
-
+  min-height: 85vh;
 }
 
 #bg2{
   background-image: url('../img/img2.png');
   background-position: 0px -80px;
   min-height: 85%;
-
+  min-height: 85vh;
 }
 
 #bg3{
   background-image: url('../img/img3.png');
   min-height: 85%;
-
+  min-height: 85vh;
 }
 
 #bg4{
