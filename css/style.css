@@ -397,9 +397,6 @@ input:-webkit-autofill {
     #bg1, #bg2, #bg3, #bg4{
       background-attachment: scroll;
     }
-    #titleName h1{
-      height: 1rem;
-    }
 }
 
 /* Landscape */
@@ -410,9 +407,6 @@ input:-webkit-autofill {
   and (orientation: landscape) {
     #bg1, #bg2, #bg3, #bg4{
       background-attachment: scroll;
-    }
-    #titleName h1{
-      height: 1rem;
     }
 
 }
