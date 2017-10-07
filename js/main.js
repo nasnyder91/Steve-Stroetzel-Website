@@ -1,7 +1,3 @@
-//webshim.activeLang('en');
-//webshims.polyfill('forms');
-//webshims.cfg.no$Switch = true;
-
 $(document).ready(function(){
   $(".navBtn").hover(function(e){
     $(this).find("h5").css("color", "blue");
