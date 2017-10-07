@@ -96,14 +96,14 @@ body,html{
 
 #bg3{
   background-image: url('../img/img3.png');
-  min-height: 85%;
-  min-height: 85vh;
+  height: 85%;
+  height: 85vh;
 }
 
 #bg4{
   background-image: url('../img/img4.png');
-  min-height: 85%;
-  min-height: 85vh;
+  height: 85%;
+  height: 85vh;
 }
 
 .bgText{
