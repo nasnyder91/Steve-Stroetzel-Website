@@ -231,7 +231,7 @@ input:-webkit-autofill {
 
 @media(max-width: 400px){
   #titleName h1{
-    height: 3.5rem;
+    height: 3rem;
   }
   .bgText{
     font-size: 2rem;
@@ -241,7 +241,7 @@ input:-webkit-autofill {
 
 @media(max-width: 360px){
   #titleName h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -362,7 +362,7 @@ input:-webkit-autofill {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #titleName h1{
-      height: 4rem;
+      height: 2.8rem;
     }
 
     #bg1, #bg2, #bg3, #bg4{
@@ -397,7 +397,9 @@ input:-webkit-autofill {
     #bg1, #bg2, #bg3, #bg4{
       background-attachment: scroll;
     }
-
+    #titleName h1{
+      height: 3rem;
+    }
 }
 
 /* Landscape */
@@ -408,6 +410,9 @@ input:-webkit-autofill {
   and (orientation: landscape) {
     #bg1, #bg2, #bg3, #bg4{
       background-attachment: scroll;
+    }
+    #titleName h1{
+      height: 2.8rem;
     }
 
 }
