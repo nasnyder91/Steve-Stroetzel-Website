@@ -215,6 +215,21 @@ input:-webkit-autofill {
     font-size: 2rem;
     letter-spacing: 4px;
   }
+  #bg1{
+    background-image: url('../img/img1small.png');
+  }
+
+  #bg2{
+    background-image: url('../img/img2small.png');
+  }
+
+  #bg3{
+    background-image: url('../img/img3small.png');
+  }
+
+  #bg4{
+    background-image: url('../img/img4small.png');
+  }
 }
 
 @media(width: 1024px) AND (height: 1366px){
@@ -231,7 +246,7 @@ input:-webkit-autofill {
 
 @media(max-width: 400px){
   #titleName h1{
-    height: 2.8rem !important;
+    height: 2.4rem !important;
   }
   .bgText{
     font-size: 2rem;
@@ -241,7 +256,7 @@ input:-webkit-autofill {
 
 @media(max-width: 360px){
   #titleName h1{
-    font-size: 2.6rem !important;
+    font-size: 2.2rem !important;
   }
 }
 
