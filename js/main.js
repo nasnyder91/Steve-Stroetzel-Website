@@ -32,7 +32,7 @@ $(document).ready(function(){
 
        if(form[0].checkValidity()){
          $.ajax({
-             url:'https://formspree.io/n.a.snyder@comcast.net',
+             url:'https://formspree.io/stevestroetzel@yahoo.com',
              method:'POST',
              data:{
                  name:name,
