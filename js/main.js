@@ -5,6 +5,8 @@ $(document).ready(function(){
     $(this).find("h5").css("color", "black");
   });
 
+
+  //Animate home/contact scrolling
   $("#toTop").click(function(){
     $("html, body").animate({ scrollTop: 0 }, "slow");
      return false;
@@ -16,9 +18,22 @@ $(document).ready(function(){
   });
 
 
+  //Setup image modal
+  $('#imgModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget); // Button that triggered the modal
+    var imgFolderURL = button.data('imgfolderurl');
+    var title = $(button).text();
+    var modal = $(this);
+
+    modal.find('#galleryTitle').text(title);
+    modal.find('#carouselImg1').attr("src", imgFolderURL + "img1.jpg");
+    modal.find('#carouselImg2').attr("src", imgFolderURL + "img2.jpg");
+    modal.find('#carouselImg3').attr("src", imgFolderURL + "img3.jpg");
+    modal.find('#carouselImg4').attr("src", imgFolderURL + "img4.jpg");
+  });
+
+
   //FORM SUBMISSION
-
-
   $('#theForm').on('submit', function(e) {
        e.preventDefault();
 

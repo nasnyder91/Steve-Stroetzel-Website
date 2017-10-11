@@ -123,9 +123,16 @@ body,html{
 
 .bgText .border{
   background-color: rgba(221, 203, 166, 0.5);
+  box-shadow: inset 3px 3px 15px rgba(0,0,0,0.6);
   color: black;
   padding: 20px;
   border-radius: 200px;
+}
+
+.bgText .border:hover{
+  background-color: rgba(221, 203, 166, 0.8);
+  box-shadow: inset 3px 3px 30px rgba(0,0,0,0.8);
+  cursor: pointer;
 }
 
 #lastText{
@@ -176,6 +183,23 @@ footer h5{
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
 }
+
+.modal{
+  max-height: 90%;
+}
+
+.modal img{
+  align-self: center;
+  max-height: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 75%;
+   max-width:1200px;
+  }
+}
+
 
 
 @media(max-width:1500px){
@@ -365,6 +389,7 @@ input:-webkit-autofill {
     font-size: 2.5rem !important;
   }
 }
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
