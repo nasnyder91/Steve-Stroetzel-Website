@@ -194,6 +194,7 @@ input:-webkit-autofill {
 
 .modal{
   max-height: 90%;
+  height: 90%;
 }
 
 .modal-content{
