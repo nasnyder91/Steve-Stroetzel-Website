@@ -194,12 +194,12 @@ input:-webkit-autofill {
 
 .modal{
   max-height: 90%;
-  min-height: 90%;
   height: 90%;
 }
 
 .modal-content{
   display: block;
+  max-height: 90%;
 }
 
 .modal-header{
@@ -220,6 +220,25 @@ input:-webkit-autofill {
   max-height: 75vh;
   object-fit: contain;
   object-position: center;
+}
+
+#imgCarousel{
+  height: 75vh;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+.carousel-control-next-icon {
+  background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+.carousel-control-prev-icon {
+  background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .close{

@@ -32,6 +32,11 @@ $(document).ready(function(){
     modal.find('#carouselImg4').attr("src", imgFolderURL + "img4.jpg");
   });
 
+  //$('#imgModal').on('show.bs.modal', function() {
+  //  $('.modal-content').css('height',$(window).height()*0.9);
+  //  $('.modal-body').css('height',$(window).height()*0.9);
+//  });
+
 
   //FORM SUBMISSION
   $('#theForm').on('submit', function(e) {
