@@ -45,6 +45,10 @@ body,html{
   font-weight: normal;
 }
 
+#titleName h5{
+  text-decoration: underline;
+}
+
 #titleEmail{
   justify-content: flex-end;
 }
