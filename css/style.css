@@ -36,6 +36,15 @@ body,html{
   margin-right: 5%;
 }
 
+#titleName h1{
+  margin: 0;
+  font-weight: 400;
+}
+
+#titleName h3{
+  font-weight: normal;
+}
+
 #titleEmail{
   justify-content: flex-end;
 }
@@ -210,6 +219,10 @@ input:-webkit-autofill {
   margin: 0;
 }
 
+#galleryTitle{
+  font-weight: 400;
+}
+
 .modal-body{
   background-color: #F2E5CB;
   box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
@@ -235,7 +248,7 @@ input:-webkit-autofill {
 }
 
 .carousel-control-next-icon {
-  background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+  background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 .carousel-control-prev-icon {
   background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
