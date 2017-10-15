@@ -235,6 +235,8 @@ input:-webkit-autofill {
 .modal img{
   align-self: center;
   max-height: 75vh;
+  width: auto;
+  margin: auto;
   object-fit: contain;
   object-position: center;
 }
